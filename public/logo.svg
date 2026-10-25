@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Background/Outer Ring -->
+  <circle cx="200" cy="160" r="140" fill="white" stroke="#2b4c9b" stroke-width="6" />
+  
+  <!-- Text Path -->
+  <path id="text-path" d="M 105.8,225.9 A 115,115 0 1, 1 294.2,225.9" fill="none" />
+  <text fill="#ea580c" font-family="Arial, sans-serif" font-weight="bold" font-size="28" letter-spacing="2">
+    <textPath href="#text-path" startOffset="50%" text-anchor="middle">IQRA ENGLISH MEDIUM SCHOOL</textPath>
+  </text>
+  
+  <!-- Inner Green Ring -->
+  <circle cx="200" cy="160" r="90" fill="white" stroke="#1c5c2d" stroke-width="6" />
+  
+  <!-- 8-Pointed Star -->
+  <g transform="translate(200,160)">
+    <polygon points="0,-85 15,-15 85,0 15,15 0,85 -15,15 -85,0 -15,-15" fill="#1c5c2d" />
+    <polygon points="0,-85 15,-15 85,0 15,15 0,85 -15,15 -85,0 -15,-15" fill="#1c5c2d" transform="rotate(45)" />
+    <!-- Separator lines -->
+    <g stroke="white" stroke-width="2">
+      <line x1="-85" y1="0" x2="85" y2="0" />
+      <line x1="0" y1="-85" x2="0" y2="85" />
+      <line x1="-60.1" y1="-60.1" x2="60.1" y2="60.1" />
+      <line x1="-60.1" y1="60.1" x2="60.1" y2="-60.1" />
+    </g>
+  </g>
+  
+  <!-- CHADOTAR Banner -->
+  <polygon points="110,230 290,230 310,247.5 290,265 110,265 90,247.5" fill="white" stroke="#1c5c2d" stroke-width="4" />
+  <text x="200" y="255" fill="#1c5c2d" font-size="22" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle">CHADOTAR</text>
+  <circle cx="125" cy="247.5" r="4" fill="#1c5c2d" />
+  <circle cx="275" cy="247.5" r="4" fill="#1c5c2d" />
+  
+  <!-- Bottom Ribbon Tails -->
+  <polygon points="60,330 10,330 30,350 10,370 60,370" fill="#2b4c9b" />
+  <polygon points="340,330 390,330 370,350 390,370 340,370" fill="#2b4c9b" />
+  
+  <!-- Bottom Banner Main -->
+  <rect x="40" y="310" width="320" height="40" fill="white" stroke="#2b4c9b" stroke-width="4" />
+  <rect x="44" y="314" width="312" height="32" fill="none" stroke="#1c5c2d" stroke-width="2" />
+  <text x="200" y="337" fill="#1c5c2d" font-size="18" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle" textLength="280" lengthAdjust="spacingAndGlyphs">Kohetoor Education &amp; Charitable Trust</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "Iqra English Medium School",
+  "description": "The official website for The Iqra English Medium School, Chadotar, Palanpur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
